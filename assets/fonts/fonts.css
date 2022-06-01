@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro&display=swap');
+
+@font-face {
+    font-family: CalSans;
+    font-display: swap;
+    src: url('CalSans-SemiBold.woff') format('woff'), url('CalSans-SemiBold.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
