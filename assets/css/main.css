@@ -681,6 +681,9 @@ body {
 .slide-swiper-reviews__text:not(:last-child) {
     margin-bottom: 56px;
 }
+.slide-swiper-reviews__text p:not(:last-child) {
+    margin-bottom: 15px;
+}
 .slide-swiper-reviews__author {}
 .slide-swiper-reviews__name {
     margin-bottom: 5px;
@@ -736,7 +739,7 @@ body {
         margin-bottom: 25px;
     }
     .slide-swiper-reviews__body {
-        padding-left: 35px;
+        padding-left: 15px;
     }
     .swiper-reviews__pagination.swiper-pagination {
         position: relative;
@@ -843,4 +846,93 @@ body {
     .favorite {
         padding-bottom: 30px;
     }
+}
+/*----------FOOTER-------------*/
+.footer {
+    background-color: var(--footer-grey);
+}
+.body-footer {
+    padding-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.body-footer__column {}
+.body-footer__logo {
+    display: block;
+    margin-bottom: 28px;
+}
+.body-footer__logo svg {
+    width: 202px;
+    height: 48px;
+}
+.body-footer__contacts {}
+.footer-contacts {}
+.footer-contacts__item {}
+.footer-contacts__item:not(:last-child) {
+    margin-bottom: 20px;
+}
+.footer-contacts__link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--grey);
+}
+.footer-contacts__link_location {}
+.footer-contacts__link_mail{}
+.body-footer__column {}
+.body-footer__menu {}
+.menu-footer {
+    display: flex;
+    gap: 126px;
+}
+.menu-footer__column {}
+.menu-footer__title {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: var(--black);
+}
+.menu-footer__list {
+    display: flex;
+    flex-direction: column;
+}
+.menu-footer__item {
+    display: flex;
+    flex-direction: column;
+}
+.menu-footer__link {
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--black);
+    opacity: 60%;
+}
+.body-footer__column {}
+.body-footer__social {}
+.social-footer {}
+.social-footer__title {
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: var(--black);
+}
+.social-footer__item {}
+.social-footer__item svg {
+    width: 32px;
+    height: 33px;
+}
+.footer__copy {
+    padding-bottom: 43px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--black);
+    opacity: 60%;
 }
